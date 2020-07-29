@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ouro Design</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
+        <link rel="stylesheet" href="css/header.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/coroa.jpg"/>        
+    </head>
+    <body>
+        <header>
+            <div class="navbar-inverse altura">
+                <div class="col-md-4">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <div id="mySidenav" class="sidenav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <a href="aliancas.html">Alianças</a>
+                                    <a href="aneis.html">Anéis</a>
+                                    <a href="correntes.html">Correntes</a>
+                                    <a href="pingentes.html">Pingentes</a>
+                                    <a href="pulseiras.html">Pulseiras</a>
+                                </div>
+                                <div id="main" >
+                                    <span style="font-size:30px;cursor:pointer; color: whitesmoke" onclick="openNav()">&#9776; Categorias</span>
+                                </div>
+                                <script>
+                                    function openNav() {
+                                        document.getElementById("mySidenav").style.width = "250px";
+                                    }
+                                    function closeNav() {
+                                        document.getElementById("mySidenav").style.width = "0";
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-md-4">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="imagens/img-header.png" alt=""/>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <form class="navbar-form navbar-left margin_top">
+                        <div class="form-group">
+                            <input type="text" placeholder="Digite sua busca" class="form-control"/>
+                        </div>
+                        <input type="submit" value="Buscar" class="btn btn-default"/>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!--display flex alinha todo o conteudo; float left coloca tudo para esquerda;
+        falta diminuir as imagens laterais e colocar para passarem quando a principal(meio) passar-->
+        <div style="display: flex; width: 100%; justify-content: center;">
+            <div id="carousel" class="carousel slide wow fadeIn" data-ride="carousel" data-wow-delay="0.5s" style="width: 300px; top: 100px;">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item">
+                        <a href="aliancas/alianca1.html">
+                            <img src="imagens/aliancas/alianca1.jpg" alt="aliança" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="aneis/anel1.html">
+                            <img src="imagens/anel/anel1.jpg" alt="anel" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="correntes/corrente1.html">
+                            <img src="imagens/corrente/corrente1.jpg" alt="corrente" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="pingentes/pingente1.html">
+                            <img src="imagens/pingente/pingente1.jpg" alt="pingente" width="500" height="500" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item active">
+                        <a href="pulseiras/pulseira1.html">
+                            <img src="imagens/pulseira/pulseira1.jpg" alt="pulseira" class="margem-carousel"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="carousel" class="carousel slide wow fadeIn" data-ride="carousel" data-wow-delay="0.5s">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <a href="aliancas/alianca1.html">
+                            <img src="imagens/aliancas/alianca1.jpg" alt="aliança" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="aneis/anel1.html">
+                            <img src="imagens/anel/anel1.jpg" alt="anel" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="correntes/corrente1.html">
+                            <img src="imagens/corrente/corrente1.jpg" alt="corrente" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="pingentes/pingente1.html">
+                            <img src="imagens/pingente/pingente1.jpg" alt="pingente" width="500" height="500" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="pulseiras/pulseira1.html">
+                            <img src="imagens/pulseira/pulseira1.jpg" alt="pulseira" class="margem-carousel"/>
+                        </a>
+                    </div>
+                </div>
+                <a href="#carousel" class="left carousel-control screen-prev" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#carousel" class="right carousel-control screen-next" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <div id="carousel" class="carousel slide wow fadeIn" data-ride="carousel" data-wow-delay="0.5s" style="width: 300px; top: 100px;">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item">
+                        <a href="aliancas/alianca1.html">
+                            <img src="imagens/aliancas/alianca1.jpg" alt="aliança" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item active">
+                        <a href="aneis/anel1.html">
+                            <img src="imagens/anel/anel1.jpg" alt="anel" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="correntes/corrente1.html">
+                            <img src="imagens/corrente/corrente1.jpg" alt="corrente" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="pingentes/pingente1.html">
+                            <img src="imagens/pingente/pingente1.jpg" alt="pingente" width="500" height="500" class="margem-carousel"/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="pulseiras/pulseira1.html">
+                            <img src="imagens/pulseira/pulseira1.jpg" alt="pulseira" class="margem-carousel"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <main>
+            <div class="container-fluid" style="margin-top: 20px">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div>
+                            <h2 class="text-center">Destaques por Categorias</h2>
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay="0.5s">
+                            <figure>
+                                <a href="aliancas/alianca1.html">
+                                    <img src="imagens/aliancas/alianca1.jpg" alt="aliança" width="250" onmouseover="src = 'imagens/aliancas/alianca11.jpg'" onmouseout="src = 'imagens/aliancas/alianca1.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Alianças de Ouro 5,0mm</h4>
+                                    <p>Par de alianças em ouro 18k Semi Anatômica</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="aliancas/alianca1.html" class="btn btn-default">R$ 1999,00</a>
+                                <a href="aliancas/alianca1.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay="0.6s">
+                            <figure>
+                                <a href="pulseiras/pulseira1.html">
+                                    <img src="imagens/pulseira/pulseira1.jpg" alt="pulseira" width="250" onmouseover="src = 'imagens/pulseira/pulseira11.jpg'" onmouseout="src = 'imagens/pulseira/pulseira1.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Pulseira de Ouro 4,6mm</h4>
+                                    <p>Pulseira em ouro 18k Cartier</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="pulseiras/pulseira1.html" class="btn btn-default">R$ 1849,00</a>
+                                <a href="pulseiras/pulseira1.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay="0.7s">
+                            <figure>
+                                <a href="pingentes/pingente1.html">
+                                    <img src="imagens/pingente/pingente1.jpg" alt="pingente" width="250" onmouseover="src = 'imagens/pingente/pingente11.jpg'" onmouseout="src = 'imagens/pingente/pingente1.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Pingente de Ouro com Zircônia</h4>
+                                    <p>Pingente em ouro 18k Coração</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="pingentes/pingente1.html" class="btn btn-default">R$ 499,00</a>
+                                <a href="pingentes/pingente1.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center tn wow fadeInUp" data-wow-delay="0.5s">
+                            <figure>
+                                <a href="correntes/corrente1.html">
+                                    <img src="imagens/corrente/corrente1.jpg" alt="corrente" width="250" onmouseover="src = 'imagens/corrente/corrente11.jpg'" onmouseout="src = 'imagens/corrente/corrente1.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Corrente de Ouro 3,8mm</h4>
+                                    <p>Corrente em ouro 18k Maciça</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="correntes/corrente1.html" class="btn btn-default">R$ 8999,00</a>
+                                <a href="correntes/corrente1.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay="0.6s">
+                            <figure>
+                                <a href="aneis/anel1.html">
+                                    <img src="imagens/anel/anel1.jpg" alt="anel" width="250" onmouseover="src = 'imagens/anel/anel11.jpg'" onmouseout="src = 'imagens/anel/anel1.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Anel de Ouro 6,0mm</h4>
+                                    <p>Anel em ouro 18k Solitário</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="aneis/anel1.html" class="btn btn-default">R$ 349,00</a>
+                                <a href="aneis/anel1.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="col-sm-12">
+                        <div>
+                            <h2 class="text-center">Mais Vendidos</h2>                            
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay="0.5s">
+                            <figure>
+                                <a href="aliancas/alianca2.html">
+                                    <img src="imagens/aliancas/alianca2.jpg" alt="alianca" width="250" onmouseover="src = 'imagens/aliancas/alianca21.jpg'" onmouseout="src = 'imagens/aliancas/alianca2.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Alianças de Ouro c/ Diamantes</h4>
+                                    <p>Par de alianças em ouro 18k Côncovas</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="aliancas/alianca2.html" class="btn btn-default">R$ 2999,00</a>
+                                <a href="aliancas/alianca2.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay="0.6s">
+                            <figure>
+                                <a href="correntes/corrente2.html">
+                                    <img src="imagens/corrente/corrente2.jpg" alt="corrente" width="250" onmouseover="src = 'imagens/corrente/corrente21.jpg'" onmouseout="src = 'imagens/corrente/corrente2.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Corrente de Ouro 4,6mm</h4>
+                                    <p>Corrente em ouro Cartier</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="correntes/corrente2.html" class="btn btn-default">R$ 2799,00</a>
+                                <a href="correntes/corrente2.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay="0.7s">
+                            <figure>
+                                <a href="correntes/corrente3.html">
+                                    <img src="imagens/corrente/corrente3.jpg" alt="corrente" width="250" onmouseover="src = 'imagens/corrente/corrente31.jpg'" onmouseout="src = 'imagens/corrente/corrente3.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Corrente de Ouro 1,3mm</h4>
+                                    <p>Corrente em ouro Piastrini</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="correntes/corrente3.html" class="btn btn-default">R$ 459,00</a>
+                                <a href="correntes/corrente3.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay="0.5s">
+                            <figure>
+                                <a href="pulseiras/pulseira2.html">
+                                    <img src="imagens/pulseira/pulseira2.jpg" alt="pulseira" width="250" onmouseover="src = 'imagens/pulseira/pulseira21.jpg'" onmouseout="src = 'imagens/pulseira/pulseira2.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Pulseira de Ouro Articulada</h4>
+                                    <p>Pulseira em ouro Vazada</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="pulseiras/pulseira2.html" class="btn btn-default">R$ 2699,00</a>
+                                <a href="pulseiras/pulseira2.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay="0.6s">
+                            <figure>
+                                <a href="pulseiras/pulseira3.html">
+                                    <img src="imagens/pulseira/pulseira3.jpg" alt="pulseira" width="250" onmouseover="src = 'imagens/pulseira/pulseira31.jpg'" onmouseout="src = 'imagens/pulseira/pulseira3.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Pulseira de Ouro 15cm</h4>
+                                    <p>Pulseira em ouro Coelho</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="pulseiras/pulseira3.html" class="btn btn-default">R$ 499,00</a>
+                                <a href="pulseiras/pulseira3.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 thumbnail text-center wow fadeInUp" data-wow-delay="0.7s">
+                            <figure>
+                                <a href="pingentes/pingente2.html">
+                                    <img src="imagens/pingente/pingente2.jpg" alt="pingente" width="250" onmouseover="src = 'imagens/pingente/pingente21.jpg'" onmouseout="src = 'imagens/pingente/pingente2.jpg'"/>
+                                </a>
+                                <div>
+                                    <h4>Pingente de Ouro c/ Diamantes</h4>
+                                    <p>Pingente em ouro Mãe</p>
+                                </div>
+                            </figure>
+                            <div class="btn-group">
+                                <a href="pingentes/pingente2.html" class="btn btn-default">R$ 849,00</a>
+                                <a href="pingentes/pingente2.html" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                                    Comprar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </main>
+        <footer>
+            <p class="wow pulse" data-wow-delay="0.5s"><a href="https://www.google.com.br/maps/place/R.+de+Santana,+612+
+                                                          -+Centro,+S%C3%A3o+Lu%C3%ADs+-+MA,+65015-440/@-2.5314134,-44.2
+                                                          978978,17z/data=!4m13!1m7!3m6!1s0x7f68ee417bd3293:0xb9f0de6395
+                                                          1a1a2d!2sR.+de+Santana+-+Centro,+S%C3%A3o+Lu%C3%ADs+-+MA!3b1!8
+                                                          m2!3d-2.531333!4d-44.2993153!3m4!1s0x7f68ee4669667c3:0x29e87c8
+                                                          b17fe2183!8m2!3d-2.5314329!4d-44.2980057"><span class="glyphicon glyphicon-map-marker"></span> 
+                    Rua de Santana, nº 612, Centro</a></p>
+            <p class="wow pulse" data-wow-delay="0.6s"><a href="tel:+559832319357"><span class="glyphicon glyphicon-earphone"></span> (98) 3231-9357</a></p>
+            <p>&COPY;Todos os Direitos Reservados<br/>2017</p>
+        </footer>
+        <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/wow.min.js" type="text/javascript"></script>
+        <script>new WOW().init();</script>
+    </body>
+
+</html>
